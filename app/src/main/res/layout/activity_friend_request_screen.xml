@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="250dp"
+    android:background="@drawable/gradientbackground"
+    tools:context=".Friend_requestScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#4B512DA8"
+        android:orientation="vertical">
+
+
+
+
+
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#92D1E5F4"
+            android:text="Play Randomly"
+            android:textColor="#000000"
+
+
+            android:textSize="20sp"
+            app:cornerRadius="15dp"
+             />
+
+
+        <Button
+            android:id="@+id/btnaddfriends"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#92D1E5F4"
+            android:text="ADD FRIENDS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:cornerRadius="15dp"
+            />
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#92D1E5F4"
+            android:text="Send Requests"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:cornerRadius="15dp"
+            />
+
+
+        <Button
+            android:id="@+id/button33"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#92D1E5F4"
+            android:text="PENDING REQUESTS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/btncreate"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#92D1E5F4"
+            android:text="EXIT"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:cornerRadius="15dp"
+            app:icon="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
